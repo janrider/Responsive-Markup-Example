@@ -1,0 +1,81 @@
+#fader {
+  position: fixed;
+  background: rgba(255,255,255,.9);
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 998;
+  display: none;
+}
+
+.popup {
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+  top: 40px;
+  background: #da5978;
+  width: 448px;
+  margin-left: -264px;
+  padding: 45px 40px 0;
+  color: #ffffff;
+  border-radius: 20px;
+  display: none;
+
+  .close {
+    position: absolute;
+    right: -15px;
+    top: -24px;
+    width: 59px;
+    height: 59px;
+    background: #f2c023;
+    border-radius: 30px;
+    box-shadow: rgba(0,0,0,.2) 0 3px 0;
+
+    &:before {
+      background-position: -90px -50px;
+      width: 22px;
+      height: 32px;
+      position: absolute;
+      left: 20px;
+      top: 19px;
+    }
+  }
+
+  h3 {
+    color: inherit;
+    font-size: 37px;
+    font-family: 'vag_roundedregular', sans-serif;
+    font-weight: 300;
+    margin-bottom: 16px;
+  }
+
+  h4 {
+    font-size: 19px;
+    margin-bottom: 60px;
+    margin-top: -8px;
+  }
+
+  form {
+    input[type=text], input[type=email], input[type=password], input[type=tel] {
+      width: 424px;
+    }
+  }
+
+  &#buyDVD {
+    background: #43bfad;
+
+    form {
+      label.checkbox {
+        display: inline-block;
+        width: 42%;
+        font-size: 19px;
+        font-weight: 400;
+      }
+
+      button {
+        background-color: #f2c023 !important;
+      }
+    }
+  }
+}

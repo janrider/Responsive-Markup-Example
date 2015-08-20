@@ -1,0 +1,92 @@
+#bottom {
+  background: #eff1e9 url(../../img/bg_hands.jpg) no-repeat center;
+  background-size: cover;
+
+  .innerGrid.bottom-menu {
+    padding: 36px 0 40px;
+    font-size: 0;
+
+    div.menu {
+      font-size: 14px;
+      display: inline-block;
+      margin-right: 20px;
+      width: 220px;
+      vertical-align: top;
+      position: relative;
+
+      a.common {
+        font-weight: 400;
+        font-size: 30px;
+        color: #49bfb0;
+        font-family: 'vag_roundedregular', sans-serif;
+      }
+
+      ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;
+        margin: 10px 20px 0 0;
+
+        li {
+          margin-bottom: 5px;
+
+          &:before {
+            content: '';
+            background: url("../../img/icons.png") -10px -20px;
+            width: 4px;
+            height: 6px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 8px 8px 0 3px;
+          }
+
+          a {
+            font-weight: 400;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .facebook {
+      display: inline-block;
+      margin-top: 10px;
+      border: #cececd 1px solid;
+      background: #ffffff;
+    }
+  }
+}
+
+#partnership {
+  text-align: center;
+
+  .innerGrid {
+    padding: 34px 0 12px;
+
+    h3 {
+      font-size: 24px;
+      color: #9aacc4;
+      font-family: 'vag_roundedregular', sans-serif;
+      margin-bottom: 20px;
+    }
+    
+    img {
+      max-width: 90%;
+    }
+  }
+}
+
+footer {
+  position: relative;
+  padding-bottom: 40px;
+  font-size: 12px;
+
+  .up {
+    position: absolute;
+    right: 37px;
+    bottom: 21px;
+    width: 40px;
+    height: 40px;
+    background: url("../../img/icons.png") -100px 0 no-repeat;
+  }
+}

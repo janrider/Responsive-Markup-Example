@@ -1,0 +1,597 @@
+@media only screen and (max-width : 1280px) {
+  .extras {
+    &:before {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width : 1154px) {
+  #welcome h1 {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width : 1054px) {
+  nav.mainNav .mega {
+    left: 0;
+    right: 0;
+    padding: 40px 0;
+  }
+
+  .theysay .innerGrid p, #welcome h1 {
+    margin-right: 0 !important;
+  }
+  .theysay {
+    height: 400px !important;
+
+    * {
+      font-size: 30px !important;
+    }
+
+    .fotorama * {
+      max-height: 400px;
+    }
+  }
+
+  #main .innerGrid {
+    padding: 0 12px;
+    margin-right: 0;
+  }
+
+  .theysay .innerGrid {
+    padding: 20px 12px;
+  }
+
+  .stories h1, .extras h1 {
+    margin-left: 12px;
+  }
+
+  #main.inner .twoCols .leftCol {
+    width: 47%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+  #main.inner .twoCols .rightCol {
+    width: 47%;
+  }
+
+  #main.twoCols aside {
+    width: 36%;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  header .innerGrid {
+    margin: 0 12px;
+  }
+  header .innerGrid #logo {
+    left: 0;
+  }
+  footer .innerGrid {
+    margin: 0 20px;
+  }
+
+  .bottom-menu {
+    text-align: center;
+
+    div.menu {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+  }
+
+  #bottom .signup-line {
+    padding: 20px 20px 16px;
+  }
+
+  nav.mainNav .mega .title {
+    display: none;
+  }
+
+  #welcome {
+    padding: 42px 20px 50px;
+  }
+}
+
+@media only screen and (max-width : 990px) {
+  .stories-grid, .extras-grid, .middle-grid {
+    margin: 0 10px !important;
+    text-align: center;
+
+    li {
+      margin: 0 1% 20px;
+      text-align: left;
+    }
+  }
+
+  #main-slider .fotorama .fotorama__html > div .video {
+    width: 165px;
+
+    & + p {
+      margin-left: 180px;
+    }
+  }
+}
+
+@media only screen and (max-width : 900px) {
+  #main-slider {
+    height: 320px !important;
+
+    .fotorama .fotorama__html > div .innerGrid {
+      max-width: 90%;
+
+      h5 {
+        font-size: 9vw;
+        margin-bottom: 12px;
+      }
+
+      a.btn {
+        font-size: 15px;
+        padding: 4px 20px;
+        min-width: 100px;
+      }
+
+      &#slider3 {
+        img {
+          width: 70px;
+        }
+      }
+      &#slider4 {
+        img {
+          width: 100px;
+        }
+        a.dwnld {
+          top: -116px;
+
+          &.gplay {
+            margin-left: 110px;
+          }
+        }
+      }
+      &#slider5 {
+        padding-bottom: 3%;
+
+        .logo {
+          top: -50px;
+        }
+
+        img {
+          width: 120px;
+        }
+      }
+    }
+  }
+
+  #main.inner aside + article {
+    width: auto;
+  }
+
+  #welcome {
+    padding: 22px 20px 30px;
+  }
+
+  #main.inner .video {
+    height: 262px;
+
+    &.fullwidth {
+      height: 436px;
+    }
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  nav.mainNav .innerGrid > li .menu-item {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width : 764px) {
+  header {
+    min-height: 190px;
+    height: auto;
+
+    .innerGrid #logo {
+      left: 50%;
+      margin-left: -134px;
+    }
+
+    .menu {
+      bottom: auto;
+      margin-bottom: 13px;
+      margin-top: 170px;
+      position: relative;
+      right: auto;
+      text-align: left;
+
+      li {
+        margin-left: auto;
+        margin-right: 16px;
+
+        a {
+          font-size: 14px;
+        }
+
+        .submenu {
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .search {
+      bottom: 10px;
+    }
+  }
+
+  .theysay {
+    height: 240px !important;
+
+    * {
+      font-size: 16px !important;
+    }
+
+    h2 {
+      margin-bottom: 16px !important;
+    }
+
+    p {
+
+      &:before {
+        background-position: 0 -70px !important;
+        background-size: 100px 125px;
+        height: 34px !important;
+        left: -60px !important;
+        width: 51px !important;
+      }
+    }
+
+    .fotorama * {
+      max-height: 240px;
+    }
+
+    .fotorama__nav--dots {
+      bottom: 50px;
+    }
+  }
+
+  nav.mainNav {
+    height: auto;
+
+    .innerGrid > li .menu-item {
+      font-size: 16px;
+      height: 44px;
+      line-height: 44px;
+    }
+  }
+  #main-slider {
+    height: 310px !important;
+
+    .fotorama__nav__frame--dot {
+      width: 10px;
+
+      .fotorama__dot {
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 10px !important;
+
+      }
+    }
+  }
+
+  nav.mainNav .mega .feature {
+    display: none;
+  }
+
+  #main.twoCols aside {
+    width: auto;
+    float: none;
+    padding-bottom: 40px;
+  }
+  #main.twoCols form {
+    margin: 0 auto;
+    float: none;
+  }
+
+  #main.buydvd .innerGrid {
+    min-height: auto;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  #main.inner .video {
+    height: 222px;
+
+    &.fullwidth {
+      height: 360px;
+    }
+  }
+
+  #welcome.teddy {
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .cats {
+      display: none;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width : 562px) {
+
+  #welcome.teddy {
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .cats {
+      display: none;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  #main.inner .video {
+    height: 302px;
+
+    &.fullwidth {
+      height: 302px;
+    }
+  }
+
+  nav.mainNav {
+    height: auto;
+
+    .innerGrid > li .menu-item {
+      font-size: 14px;
+      height: 34px;
+      line-height: 34px;
+      padding: 0 12px;
+    }
+  }
+
+  #main-slider {
+    height: 260px !important;
+
+
+    .fotorama .fotorama__html > div .innerGrid {
+      &#slider3 {
+        img {
+          width: 50px;
+        }
+      }
+      &#slider5 {
+
+        .logo {
+          top: -20px;
+        }
+
+        img {
+          width: 70px;
+        }
+      }
+    }
+  }
+
+  a.fb-auth {
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  #main.twoCols aside {
+    h1 {
+      font-size: 24px;
+    }
+  }
+  #main.twoCols form {
+    width: auto;
+
+    input {
+      width: 88% !important;
+    }
+
+    .names {
+      width: 47%;
+
+      input {
+        width: 76% !important;
+      }
+    }
+  }
+
+  .popup {
+    left: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding: 45px 3% 0;
+
+    h3 {
+      font-size: 24px;
+    }
+
+    form {
+      input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+        width: 92%;
+      }
+    }
+  }
+
+  #main.inner .twoCols .leftCol {
+    width: auto;
+    float: none;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+  #main.inner .twoCols .rightCol {
+    width: auto;
+    float: none;
+  }
+
+  #main.inner aside {
+    float: none;
+    margin: 0 0 20px 0;
+    width: auto;
+  }
+
+  #main.inner.about .photo {
+    width: 50%;
+  }
+
+  .dvds .middle-grid li {
+    width: auto;
+    padding: 0 10px !important;
+    margin: 0 0 20px;
+  }
+  .dvds .middle-grid .image {
+    max-width: 446px;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  #welcome.teddy {
+    font-size: 16px;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .cats {
+      display: none;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .social {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 410px) {
+
+  #main.inner .video {
+    height: 202px;
+
+    &.fullwidth {
+      height: 202px;
+    }
+  }
+
+
+  .theysay {
+    height: 300px !important;
+
+    .fotorama * {
+      max-height: 300px;
+    }
+  }
+
+  .stories-grid, .extras-grid, .middle-grid {
+    margin: 0 10px;
+    text-align: center;
+
+    li {
+      margin: 0 0 20px;
+      text-align: left;
+      max-width: 288px;
+    }
+  }
+
+  nav.mainNav {
+
+    .innerGrid > li .menu-item {
+      font-size: 12px;
+      padding: 0 8px;
+    }
+  }
+
+  header .menu li {
+    margin-right: 8px;
+  }
+
+  #main-slider {
+    height: 200px !important;
+
+    .fotorama .fotorama__nav--dots, .fotorama .fotorama__arr {
+      display: none !important;
+    }
+
+    .fotorama .fotorama__html > div .innerGrid {
+      a.btn {
+        font-size: 13px;
+      }
+
+      &#slider4 a.dwnld {
+        position: static;
+        margin: 0 4px !important;
+      }
+      &#slider5 {
+        h5 {
+          font-size: 5.5vw !important;
+        }
+      }
+    }
+  }
+
+  #main.twoCols form {
+
+    .names {
+      width: 100%;
+      margin-left: 0 !important;
+
+      input {
+        width: 88% !important;
+      }
+    }
+  }
+
+  .crumbs.inner {
+    font-size: 36px;
+  }
+
+  .signup {
+    font-size: 0;
+    padding: 0 0 0 34px !important;
+  }
+}
