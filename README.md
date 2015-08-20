@@ -1,5 +1,5 @@
 # Responsive-Markup-Example
-Responsive-Markup-Example
+Example of responsive markup. HTML5, CSS3, JS/jQuery, fotorama.io plugin, Gulp builder
 
 ```
 $ npm install gulp
